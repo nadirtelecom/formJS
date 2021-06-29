@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_By_JS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h2>Contact Form: </h2>
+
+<div>
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text" id="f_name" name="first_name" placeholder="Your First Name" required>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="l_name" name="last_name" placeholder="Your last Name" required>
+
+    <label for="country">Country</label>
+    <select id="_country" name="country">
+        <option disabled selected value> Select Your Country?</option>
+      <option value="Morocoo"> Morocco </option>
+      <option value="Turkey"> Turkey </option>
+      <option value="Germany"> Germany </option>
+      <option value="Canada"> Canada </option>
+    </select>
+  
+    <button type ="button" onclick="display()"> Submit </button>
+    
+    </form>
+    <nav>
+        
+        <h3 id="F"></h3>
+        <h3 id="L"></h3>
+        <h3 id="C"></h3>
+
+    </nav>
+    
+    
+
+  
+</div>
+</body>
+</html>
